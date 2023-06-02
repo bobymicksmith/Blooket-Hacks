@@ -1,3 +1,6 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
+if (console_msg("Login Bsid")) {
 var a = document.createElement("iframe");
 document.body.append(a);
 window.alert = a.contentWindow.alert.bind(window);
